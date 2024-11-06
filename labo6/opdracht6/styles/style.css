@@ -1,0 +1,11 @@
+.checklist li {
+    display: block;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-image: url("https://www.svgrepo.com/show/309415/checkbox-unchecked.svg");
+}
+
+.checklist li.checked {
+    background-image: url("https://www.svgrepo.com/show/309414/checkbox-checked.svg");
+}
