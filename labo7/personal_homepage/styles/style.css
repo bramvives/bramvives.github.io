@@ -1,0 +1,125 @@
+body {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #444444;
+    font-family: Verdana, sans-serif;
+    font-size: 0.8em;
+    color: white;
+}
+
+section h2 {
+    color: cyan;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    border: 3px solid lightgray;
+}
+
+
+table.styledTable {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.styledTable {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+table.styledTable td, table.styledTable th {
+    padding: 4px 6px;
+}
+
+table.styledTable thead th {
+    background-color: #006699;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #0070A8;
+}
+
+table.styledTable thead th:first-child {
+    border: none;
+}
+
+table.styledTable tbody td {
+    color: #00557F;
+    border-left: 1px solid #E1EEF4;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+table.styledTable tbody .alt td {
+    background: #E1EEf4;
+    color: #00557F;
+}
+
+table.styledTable tbody td:first-child {
+    border-left: none;
+}
+
+table.styledTable tbody tr:last-child td {
+    border-bottom: none;
+}
+
+table.styledTable tfoot td div {
+    border-top: 1px solid #006699;
+    background: #E1EEf4;
+}
+
+table.styledTable tfoot td {
+    padding: 0;
+    font-size: 12px
+}
+
+table.styledTable tfoot td div {
+    padding: 2px;
+}
+
+table.styledTable tfoot td ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+table.styledTable tfoot ul.active, table.styledTable tfoot ul a:hover {
+    text-decoration: none;
+    border-color: #00557F;
+    color: #FFFFFF;
+    background: #006699 none;
+}
+
+table.styledTable tfoot li {
+    display: inline;
+}
+
+table.styledTable tfoot li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 1px;
+    color: #FFFFFF;
+    border: 1px solid #006699;
+    border-radius: 3px;
+    background-color: #006699;
+}
+
+.onbekend {background-color:red;}

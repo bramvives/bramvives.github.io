@@ -1,0 +1,37 @@
+body {
+    width: 95%;
+    margin: auto;
+}
+
+body > section > header {
+    background-image: url("../header.jpg");
+    background-size: cover;
+    height: 100px;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Verdana, serif;
+    font-size: 1.3em;
+    padding-left: 10px;
+}
+
+nav {
+    background-color: #444444
+
+}
+
+nav a {
+    color: lightgreen;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+section article {
+    background-color: lightgray;
+
+}
+
+section article h1 {
+    text-decoration: underline;
+    font-size: 1.5em;
+    padding-top: 30px;
+}

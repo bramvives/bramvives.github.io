@@ -1,0 +1,39 @@
+
+.calendar {
+    border: 5px solid black;
+    width: fit-content;
+}
+
+.calendar table {
+    border-spacing: 0;
+    font-size: 2em;
+}
+
+.calendar td {
+    padding: 0.2em;
+}
+
+.calendar caption {
+    background-color: rgb(170, 170, 200);
+}
+
+.calendar thead tr:first-child td {
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+}
+
+.calendar tr td:first-child, .calendar td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+.calendar .otherMonth {
+    background-color: lightgray !important;
+}
+
+.freeDay {
+    background-color: rgb(250, 120, 120) !important;
+}
+
+.calendar th, td {
+    border-style: dotted;
+}
