@@ -22,10 +22,12 @@ nav {
     width: 30%;
 }
 
-section {
+section#midden {
     float: left;
     background-color: darkred;
     width: 70%;
+    border: 2px solid black;
+    box-sizing: border-box;
 }
 
 section span {

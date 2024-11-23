@@ -1,0 +1,91 @@
+body {
+    margin: 0 auto 0 auto;
+    width: 95%;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+h1, h2 {
+    color: #007e7e;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+header img {
+    margin: auto;
+    display: block;
+}
+
+
+article#weekly {
+    padding: 2%;
+    width: 30%;
+    box-sizing: border-box;
+    float: right;
+    border: 1px solid #007e7e;
+    text-align: center;
+    background: url("../images/cocktail.gif") repeat-x;
+    line-height: 1;
+}
+
+article#weekly h1 {
+    color: black;
+}
+
+article#weekly h2 {
+    color: red;
+}
+
+section {
+    width: 70%;
+    float: left;
+
+}
+
+section > article {
+    padding: 0 20px;
+}
+
+
+p#guarantee {
+    margin: 30px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 2px dotted white;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    padding: 20px 20px 20px 50px;
+    background-size: 50px;
+}
+
+
+span.location {
+    font-style: italic;
+}
+
+span.name {
+    font-weight: bold;
+}
+
+footer {
+    clear: both;
+    color: gray;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+a {
+    color: black;
+    text-decoration: none
+}
+
+a:hover {
+    color: brown;
+    text-decoration: underline;
+}
