@@ -1,0 +1,9 @@
+.light {
+    background-color: lightgray;
+    height: 100px;
+}
+
+.dark {
+    background-color: darkgray;
+    height: 100px;
+}
