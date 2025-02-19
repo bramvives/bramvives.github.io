@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    gap: 10px;
+}
+
+.btn {
+    background-color: white;
+    height: 40px;
+}
+
+.clicked {
+    background-color: #33a8a5;
+}
