@@ -1,0 +1,12 @@
+#bestelling {
+    height: 100px;
+}
+label[for="bestelling"] {
+    vertical-align: top;
+}
+
+br {
+    display: block;
+    margin-bottom: 0.5rem;
+    content: ""; /* clears default height */
+}
