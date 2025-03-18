@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+<div class="container">
+    <div class="colorPickerWrapper">
+        <div class="colorPickerItem">
+            <p>0</p>
+            <input type="range" value="127" min="0" max="255" id="redSlider"/>
+            <p>255</p>
+            <span>&emsp;</span>
+            <p>Red <span id="redValue"></span></p>
+        </div>
+        <div class="colorPickerItem">
+            <p>0</p>
+            <input type="range" value="127" min="0" max="255" id="greenSlider"/>
+            <p>255</p>
+            <span>&emsp;</span>
+            <p>Green <span id="greenValue"></span></p>
+        </div>
+        <div class="colorPickerItem">
+            <p>0</p>
+            <input type="range" value="127" min="0" max="255" id="blueSlider"/>
+            <p>255</p>
+            <span>&emsp;</span>
+            <p>Blue <span id="blueValue"></span></p>
+        </div>
+    </div>
+    <div>
+        <div id="colorBlock"></div>
+    </div>
+    <button id="saveBtn">Save</button>
+</div>
+
+<div id="swatchContainer"></div>
+
+
+</body>
+</html>
